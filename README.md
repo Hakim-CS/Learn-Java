@@ -11,7 +11,7 @@ Getting Started
 To get started with the exercises in this repository, follow these steps:
 
 1. Clone the Repository: Clone this repository to your local machine using the following command:
-   git clone https://github.com/YourUsername/learn-java.git
+   git clone https://github.com/hakim-cs/learn-java.git
 
 2. Navigate to the Exercise Folder: Navigate to the folder corresponding to the exercise you want to work on:
    cd learn-java/exercise-folder-name
