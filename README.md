@@ -19,19 +19,25 @@ To get started with the exercises in this repository, follow these steps:
    git clone https://github.com/hakim-cs/learn-java.git
 
 
-2. Navigate to the Exercise Folder: Navigate to the folder corresponding to the exercise you want to work on:
+2. **Navigate to the Exercise Folder**: Navigate to the folder corresponding to the exercise you want to work on:
+   '''bash
    cd learn-java/exercise-folder-name
-3. Review the Exercise Instructions: Read the exercise instructions and requirements provided by Exercism to understand the problem you need to solve.
+4. **Review the Exercise Instructions**: Read the exercise instructions and requirements provided by Exercism to understand the problem you need to solve.
 
-4. Write Your Solution: Write your solution to the exercise in the appropriate source code file (e.g., Solution.java).
+5. **Write Your Solution**: Write your solution to the exercise in the appropriate source code file (e.g., Solution.java).
 
-5. Test Your Solution: Test your solution by running the provided test cases or writing your own test cases to ensure your solution works as expected.
+6. **Test Your Solution**: Test your solution by running the provided test cases or writing your own test cases to ensure your solution works as expected.
 
-6. Commit Your Changes: Once you are satisfied with your solution, commit your changes to your local repository
-   git add .
+7. **Commit Your Changes**: Once you are satisfied with your solution, commit your changes to your local repository
+'''bash
+    git add .
 git commit -m "Add solution for exercise-name"
 
-Contributing
+##Contributing
+
 If you have suggestions, improvements, or additional exercises you'd like to contribute, feel free to open an issue or submit a pull request. Your contributions are greatly appreciated!
-License
-This repository is licensed under the MIT License.
+
+## License
+
+This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
