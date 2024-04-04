@@ -6,6 +6,7 @@ public class Students {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Hello welcome ");
 
         System.out.println("Enter the number of students in the class: ");
         int studentNumber = scanner.nextInt();
