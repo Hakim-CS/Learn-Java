@@ -112,7 +112,7 @@ public class Students {
             double termGrade = (midterm * 0.4) + (finalGrade * 0.6);
             System.out.println("Student ID: " + student.getId() + ", Name: " + student.getName()
                     + ", Midterm Grade: " + midterm + ", Final Grade: " + finalGrade + ", Term Grade: "
-                    + termGrade);
+                    + termGrade); //printing the calculated grades
         }
     } // end of calculateGrades method
 
@@ -167,5 +167,18 @@ public class Students {
         }
         System.out.println("Maximum final grade: " + maxFinalGrade);
     } // end of maxFinalGrade method
+
+    public static void  isPassed(List<StudentInfo> students){
+        for (StudentInfo student : students) {
+            double midterm = student.getMidterm();
+            double finalGrade = student.getFinalGrade();
+            double termGrade = (midterm * 0.4) + (finalGrade * 0.6);
+            if (termGrade > 60) {
+                System.out.println("Student ID: " + student.getId() + ", Name: " + student.getName() + " is passed.");
+            } else {
+                System.out.println("Student ID: " + student.getId() + ", Name: " + student.getName() + " is failed.");
+            }
+        }
+    }
 
 } // end of Students class
