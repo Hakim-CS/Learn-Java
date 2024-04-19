@@ -8,7 +8,7 @@ Welcome to the "Learn Java" repository! This repository contains my solutions an
 
 ## Repository Structure
 
-This repository is organized into folders, each corresponding to a different exercise or project from the Java track on Exercism. Within each folder, you will find my solutions, along with any additional resources or notes related to the exercise.
+This repository is organized into folders, each corresponding to a different exercise or project from the `Java` track on Exercism. Within each folder, you will find my solutions, along with any additional resources or notes related to the exercise.
 
 ## Getting Started
 
