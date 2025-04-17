@@ -10,7 +10,7 @@ Welcome to the "Learn Java" repository! This repository contains my solutions an
 
 This repository is organized into folders, each corresponding to a different exercise or project from the `Java` track on Exercism. Within each folder, you will find my solutions, along with any additional resources or notes related to the exercise.
 
-## Getting Started
+## Getting Started 
 
 To get started with the exercises in this repository, follow these steps:
 
