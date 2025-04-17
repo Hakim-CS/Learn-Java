@@ -168,7 +168,7 @@ public class Students {
         }
         System.out.println("Maximum final grade: " + maxFinalGrade);
     } // end of maxFinalGrade method
-
+// check if student fpassed or not 
     public static void  isPassed(List<StudentInfo> students){
         for (StudentInfo student : students) {
             double midterm = student.getMidterm();
