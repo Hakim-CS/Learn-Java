@@ -38,7 +38,7 @@ To get started with the exercises in this repository, follow these steps:
 
 If you have suggestions, improvements, or additional exercises you'd like to contribute, feel free to open an issue or submit a pull request. Your contributions are greatly appreciated!
 
-## License
+
 
 This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
