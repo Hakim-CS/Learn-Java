@@ -40,5 +40,4 @@ If you have suggestions, improvements, or additional exercises you'd like to con
 
 
 
-This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
