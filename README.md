@@ -38,6 +38,8 @@ To get started with the exercises in this repository, follow these steps:
 
 If you have suggestions, improvements, or additional exercises you'd like to contribute, feel free to open an issue or submit a pull request. Your contributions are greatly appreciated!
 
+Thank you 
+
 
 
 
