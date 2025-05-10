@@ -5,9 +5,5 @@ class Greeter {
     }
 
 
-
-    
-
-
 }
  
