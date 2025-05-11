@@ -8,7 +8,7 @@ public class MatrixMultiplication {
             {1, 2, 3},
             {4, 5, 6},
             {7, 8, 9}  
-        };
+        }; 
         //matrix B
         int[][] B = {
             {9, 8, 7},
