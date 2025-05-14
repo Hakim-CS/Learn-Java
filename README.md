@@ -4,7 +4,7 @@ Welcome to the "Learn Java" repository! This repository contains my solutions an
 
 ## About Exercism   
 
-[Exercism](https://exercism.org/) is an online platform designed to help developers improve their programming skills through practice exercises in various programming languages. The Java track on Exercism offers a diverse set of exercises to help learners gain proficiency in Java programming.
+[Exercism](https://exercism.org/) is an online platform designed to help developers improve their programming skills through practice exercises in various programming languages. The Java track on Exercism offers a diverse set of exercises to help learners gain proficiency in Java programming. 
 
 ## Repository Structure
 
