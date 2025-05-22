@@ -1,0 +1,21 @@
+public class SingletonExample {
+    // 1. Create a private static variable to hold the single instance
+    private static SingletonExample instance;
+
+    // 2. Make the constructor private so it cannot be instantiated outside
+    private SingletonExample() { }
+
+    // 3. Provide a public static method to get the instance
+    public static SingletonExample getInstance() {
+        if (instance == null) {
+            // Lazy initialization (thread unsafe version)
+            instance = new SingletonExample();
+        }
+        return instance;
+    }
+
+    // Example method to show usage
+    public void showMessage() {
+        System.out.println("Hello from SingletonExample!");
+    }
+}
