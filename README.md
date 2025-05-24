@@ -1,10 +1,7 @@
 # Learn Java
 
-Welcome to the "Learn Java" repository! This repository contains my solutions and practice projects from the Java track on [Exercism](https://exercism.org/tracks/java).
+Welcome to the "Learn Java" repository! This repository contains my solutions and practice projects from the Java 
 
-## About Exercism    
-
-[Exercism](https://exercism.org/) is an online platform designed to help developers improve their programming skills through practice exercises in various programming languages. The Java track on Exercism offers a diverse set of exercises to help learners gain proficiency in Java programming. 
 
 ## Repository Structure
 
@@ -21,7 +18,7 @@ To get started with the exercises in this repository, follow these steps:
 
 2. **Navigate to the Exercise Folder**: Navigate to the folder corresponding to the exercise you want to work on:
    ```bash
-      cd learn-java/exercise-folder-name
+      cd learn-java
 
 4. **Review the Exercise Instructions**: Read the exercise instructions and requirements provided by Exercism to understand the problem you need to solve.
 
