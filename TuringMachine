@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class TuringMachineABC {
+    public static boolean recognize(String input) {
+        char[] tape = (input + " ").toCharArray(); // Add blank at end.
+        int n = tape.length;
+        int head;
+
+        while (true) {
+            // Step 1: Find leftmost 'a'
+            head = 0;
+            while (head < n && (tape[head] != 'a')) head++;
+            if (head == n - 1) break; // No more 'a'. Go to next phase.
+
+            tape[head] = 'X'; // Mark 'a' as processed
+
+            // Step 2: Find leftmost 'b' to the right of marked 'a'
+            head++;
+            while (head < n && (tape[head] != 'b')) head++;
+            if (head == n - 1) return false; // No matching 'b'
+
+            tape[head] = 'Y'; // Mark 'b' as processed
+
+            // Step 3: Find leftmost 'c' to the right of marked 'b'
+            head++;
+            while (head < n && (tape[head] != 'c')) head++;
+            if (head == n - 1) return false; // No matching 'c'
+
+            tape[head] = 'Z'; // Mark 'c' as processed
+        }
+
+        // Check for leftover unmarked 'a', 'b', or 'c'
+        for (char ch : tape) {
+            if (ch == 'a' || ch == 'b' || ch == 'c') return false;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter input string (over {a, b, c}):");
+        String s = sc.nextLine().trim();
+        if (recognize(s)) {
+            System.out.println("Accepted: " + s + " ∈ a^n b^n c^n");
+        } else {
+            System.out.println("Rejected: " + s + " ∉ a^n b^n c^n");
+        }
+    }
+}
